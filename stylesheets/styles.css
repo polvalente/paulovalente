@@ -51,6 +51,7 @@ nav ul li:last-child a {
 
 nav ul li a:hover {
     background-color: #4CBF50;
+    color: #FFF;
     border-right: 3px solid #4CBF50;
 }
 
