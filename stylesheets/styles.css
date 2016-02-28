@@ -40,6 +40,11 @@ nav ul li a {
     text-decoration: none;
     border-right: 3px solid #555;
 }
+
+nav ul li a.visited{
+  color: #FFF;
+}
+
 nav ul li:last-child a {
     border-right: none;
 }
