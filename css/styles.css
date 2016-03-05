@@ -16,10 +16,10 @@ hr {
 }
 
 a{
-  color: #222;
+  color: rgb(72, 125, 67);
 }
 a:visited {
-  color: #000;
+  color: rgb(30, 60, 30);
 }
 a:hover {
   color: #4CBF50;
