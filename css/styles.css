@@ -91,6 +91,33 @@ li {
   top: 4px;
   left: 4px;
 }
+
+.codeList .download:after{
+  float:right;
+}
+
+.codeList .download:hover{
+  text-decoration: underline;
+}
+
+
+
 .codeList{
   font-size: 16px;
+}
+
+.codeList span{
+  color: rgb(72, 125, 67);
+  text-decoration: underline;
+  line-height: 30px;
+}
+
+.codeList a:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e022";
+    font-family: 'Glyphicons Halflings';
+    float: left;
+    margin-right: 4px;
+    position: relative;
+    top: 1px;
 }
