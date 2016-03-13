@@ -93,8 +93,7 @@ li {
 }
 
 .codeList .download:after{
-  content: "\e032";
-  float:right;
+  content: "";
 }
 
 
@@ -117,7 +116,7 @@ li {
 
 .codeList a:before {
     /*Using a Bootstrap glyphicon as the bullet point*/
-    content: "\e022";
+    content: "\e032";
     font-family: 'Glyphicons Halflings';
     float: left;
     margin-right: 4px;
