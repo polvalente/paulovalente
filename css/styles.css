@@ -93,9 +93,11 @@ li {
 }
 
 .codeList .download:after{
-  content: "\e032"
+  content: "\e032";
   float:right;
 }
+
+
 
 .codeList .download:hover{
   text-decoration: underline;
