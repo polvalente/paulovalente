@@ -93,6 +93,7 @@ li {
 }
 
 .codeList .download:after{
+  content: "\e032"
   float:right;
 }
 
@@ -107,7 +108,7 @@ li {
 }
 
 .codeList span{
-  color: rgb(72, 125, 67);
+  color: #333;
   text-decoration: underline;
   line-height: 30px;
 }
