@@ -54,7 +54,18 @@
         </div>
       </div>
       <!-- Mobile navbar -->
-      <div class="container visible-xs visible-sm">
+      <script>
+      function togglePadding(event,caller){
+        console.log(caller.style.paddingBottom);
+        if (caller.style.paddingBottom == "0px"){
+          caller.style.paddingBottom = "130px";
+        }
+        else{
+          caller.style.paddingBottom = "0px";
+        }
+      }
+      </script>
+      <div class="container visible-xs visible-sm" onclick="togglePadding(event,this)" style="padding-bottom:0px">
         <div class="row">
           <div class="col-sm-10 col-sm-push-1">
             <nav class="navbar navbar-default navbar-fixed-top">
