@@ -123,3 +123,13 @@ li {
     position: relative;
     top: 1px;
 }
+
+.codeList .downloadZip:before {
+    /*Using a Bootstrap glyphicon as the bullet point*/
+    content: "\e117";
+    font-family: 'Glyphicons Halflings';
+    float: left;
+    margin-right: 4px;
+    position: relative;
+    top: 1px;
+}

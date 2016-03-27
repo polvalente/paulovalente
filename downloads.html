@@ -25,7 +25,7 @@
       <script>
         function viewOnGit(element)
         {
-          links = document.getElementsByClassName("downloadGit");
+          links = document.getElementsByClassName('downloadGit');
           for (var index=0; index < links.length; index++)
           {
             link = links[index];
@@ -40,10 +40,37 @@
     <div class="container">
 
       <!-- Static navbar -->
-      <div class="container">
+      <div class="container hidden-xs hidden-sm">
         <div class="row">
           <div class="col-sm-10 col-sm-push-1">
             <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">Paulo Valente</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li><a href="index.html">Início</a></li>
+                    <li class="active"><a href="downloads.html">Downloads</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile navbar -->
+      <div class="container visible-xs visible-sm">
+        <div class="row">
+          <div class="col-sm-10 col-sm-push-1">
+            <nav class="navbar navbar-default navbar-fixed-top">
               <div class="container-fluid">
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -119,12 +146,16 @@
                 <a class="download downloadGit" href="#">eight_queens.m</a>
               </li>
               <li class="list-group-item">
-                <span> Material do Minicurso - dias 21 a 23, Março/16 </span><br>
+                <span> Material do Minicurso B&aacute;sico - dias 21 a 23, Mar&ccedil;o/16 </span><br>
                 <a class="download downloadGit" href="#">ajuste_reta.m</a>
                 <br/>
                 <a href="#" class="download downloadGit">oito_rainhas2.m</a>
                 <br />
                 <a href="files/reta.txt" class="download">reta.txt</a>
+              </li>
+              <li class="list-group-item">
+                <span> Material do Minicurso Intermedi&aacute;rio - dias 28 e 29, Mar&ccedil;o/16</span><br/>
+                <a class="download downloadZip" href="files/codes/kmeans.zip">kmeans.zip</a><br/>
               </li>
             </ul>
           </div>
